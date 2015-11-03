@@ -1,0 +1,212 @@
+/* Responsive Menu */
+@media screen and (max-width: 650px) {
+	.scroll-button {
+		display: none;
+	}
+
+
+	.nav {
+	    z-index: 10;
+	    background-color: #ffcd0a;
+	    height: 100%;
+	    width: 300px;
+	    position: absolute;
+	}
+
+
+	.open {
+	    -webkit-transform: translateX(-300px);
+	    transform: translateX(-300px);
+	    transition: transform 0.3s ease;
+	}
+
+
+	.nav_item {
+	    display: list-item;
+	    border-bottom: 1px solid #fff;
+	    width: 100%;
+	    text-align: center;
+	    height: 2em;
+	    padding: 0.4em;
+    }
+    
+
+
+    .nav a {
+		text-decoration: none;
+		color: #2a2929;
+	} 
+
+
+	.nav a:hover {
+	    color: #fff;
+	}
+	 
+
+	.nav a.active {
+	    color: #444;
+	    cursor: default;
+	}
+}
+
+
+/* Nexus 7 */
+@media screen and (min-width: 599px) {
+    
+    main section .col-5 {
+		padding: 1.5em 0;
+    }
+
+
+    main section .col-7 {
+		padding: 3em 0.8em 1em 0.8em;
+    }
+
+
+    main h4,
+    main p {
+	    font: 14px "Poiret One", cursive;
+    }
+
+
+    footer a {
+        font-size: 22px;
+    }
+
+
+    .intro-h1 {
+		padding-top: 0.4em;
+		font-size: 3em;
+    }
+
+
+    main a {
+		font-size: 80%;
+		padding: 2%;
+    }
+
+
+    .button-yellow {
+		font-size: 80%;
+		padding: 2%;
+    }
+}
+
+
+
+/* iPad */
+@media screen and (min-width: 767px) {
+    
+    main section .col-5 {
+		padding: 1.5em 0;
+    }
+
+
+    main section .col-7 {
+		padding: 4em 1em 1em 1em;
+    }
+
+
+    main h4,
+    main p {
+	    font: 16px "Poiret One", cursive;
+    }
+
+
+    .banner {
+        padding: 9em;
+    }
+
+
+    .scroll-button {
+	    margin: 7em 0 -6em 0;
+    }
+
+
+    footer a {
+        font-size: 32px;
+    }
+
+
+    main p {
+    	padding-bottom: 1em;
+    }
+
+
+    .footer-logo {
+        width: 30%;
+    }    
+}
+
+
+
+/* 1024p */
+@media screen and (min-width: 1023px) {
+    
+    .header-logo {
+	    height: 76px;
+    } 
+
+
+    main section .col-5 {
+		padding: 1.5em 0;
+    }
+
+
+    main section .col-7 {
+		padding: 5.5em 3em 1em 3em;
+    }
+    
+
+    body {
+    	max-width: 980px;
+    	margin-left: auto;
+    	margin-right: auto;
+    	background: #2a2929;
+    }
+}
+
+
+
+
+/* Menu is being shown */
+@media screen and (min-width: 651px) {
+	header .menu-toggle {
+		display: none;
+	} 
+
+
+	.nav ul {
+		list-style: none;
+		background-color: #444;
+        text-align: center;
+        margin: -4.4em 0.7em 0 0;
+    }
+
+ 
+    .nav li {
+		font-size: 1.2em;
+		line-height: 40px;
+		height: 40px;
+		float: right;
+		padding: 0.4em;
+        display: inline-block;
+    }
+
+
+    .nav a {
+		text-decoration: none;
+		color: #ffcd0a;
+	} 
+
+
+	.nav a:hover {
+	    color: #fff;
+	}
+	 
+
+	.nav a.active {
+	    color: #444;
+	    cursor: default;
+	}
+}
